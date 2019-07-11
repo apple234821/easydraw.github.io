@@ -1,0 +1,13 @@
+body{
+  padding: 20px;
+}
+
+canvas{
+  background-color: #fff;
+}
+#canvas{ display: block; width: 300px; height: 300px; border: 1px solid #000; }
+#colors{ display: block; margin:10px 0; height: 25px; line-height: 25px; }
+
+#colors > span{
+  display: inline-block; width: 20px; height: 20px; margin-right: 5px; cursor: pointer;
+}
